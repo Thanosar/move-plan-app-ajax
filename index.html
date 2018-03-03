@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Moving Companion</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="main-container">
+
+    <h2 id="greeting" class="greeting">Που θα ήθελες να μένεις;</h2>
+
+    <div class="form-container">
+      <form id="form-container" class="form-container">
+      <div class="input-group">
+          <span class="input-group-addon" id="basic-addon1"><i class="fa fa-road"></i></span>
+        <input type="text" id="street" value="" class="form-control" placeholder="Οδός (Street)" aria-describedby="basic-addon1">
+      </div>
+
+      <div class="input-group">
+          <span class="input-group-addon" id="basic-addon1"><i class="fa fa-map-marker"></i></span>
+          <input type="text" id="city" value="" class="form-control" placeholder="Πόλη (City)" aria-describedby="basic-addon1">
+
+        </div>
+          <i class="fa fa-info-circle pull-right" data-toggle="tooltip" data-placement="right" title="Χρησιμοποιήστε greeklish, για να εμφανιστούν άρθρα από NYTimes και Wiki!" ></i>
+          <input class="btn btn-primary pull-right" type="submit" value="Submit">
+
+
+      </form>
+
+    </div>
+
+
+</div>
+
+<hr>
+
+<div class="infos">
+  <div class="nytimes-container">
+      <h3 id="nytimes-header">Άρθρα από New York Times</h3>
+      <ul id="nytimes-articles" class="article-list">Τι συμβαίνει στη πόλη σας; Πατήστε το κουμπί Submit και οι NY times θα σας ενημερώσουν!</ul>
+  </div>
+
+  <div id="photo" class="rounded">
+
+  </div>
+
+  <div class="wikipedia-container">
+      <h3 id="wikipedia-header">Σχετικά Link από Wikipedia</h3>
+      <span id="wikipedia-links">Πληκτρολογήστε μια διεύθυνση και θα σας εμφανιστούν σχετικά άρθρα!</span>
+  </div>
+
+
+</div>
+
+
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+<!--
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script> -->
+
+</body>
+</html>
